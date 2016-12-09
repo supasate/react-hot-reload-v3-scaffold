@@ -1,0 +1,34 @@
+{
+  "name": "react-hot-reload-v3-with-react-router-v2-and-redux-router-v2",
+  "version": "1.0.0",
+  "description": "A react repo with react-hot-loader v3, react-router v2, and redux-router v2",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "webpack"
+  },
+  "author": "Supasate Choochaisri",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.20.0",
+    "babel-loader": "^6.2.9",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "express": "^4.14.0",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "webpack": "^1.14.0",
+    "webpack-dev-middleware": "^1.8.4",
+    "webpack-hot-middleware": "^2.13.2"
+  },
+  "dependencies": {
+    "history": "^2.0.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^4.4.6",
+    "react-router": "^2.8",
+    "redux": "^3.6.0",
+    "redux-router": "^2.1.0"
+  }
+}
