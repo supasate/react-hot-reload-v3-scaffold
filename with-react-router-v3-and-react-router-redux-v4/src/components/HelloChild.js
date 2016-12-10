@@ -1,8 +1,8 @@
 import React from 'react'
 
-const HelloChild = () => (
+const HelloChild = ({ path }) => (
   <div>
-    Hello-Child
+    Hello-Child at {path} (receive path from parent)
   </div>
 )
 

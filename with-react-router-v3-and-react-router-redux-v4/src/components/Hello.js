@@ -1,11 +1,16 @@
 import React from 'react'
+import { connect } from 'react-redux'
 import HelloChild from './HelloChild'
 
-const Hello = () => (
+const Hello = ({ path }) => (
   <div>
     <div>Hello</div>
-    <HelloChild />
+    <HelloChild path={path} />
   </div>
 )
 
-export default Hello
+const mapStateToProps = (state, ownProps) => ({
+  path: ownProps.location.pathname,
+})
+
+export default connect(mapStateToProps)(Hello)
