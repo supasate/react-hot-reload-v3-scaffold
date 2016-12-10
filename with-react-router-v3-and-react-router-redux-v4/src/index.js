@@ -1,8 +1,6 @@
 import { AppContainer } from 'react-hot-loader'
 import { compose, createStore } from 'redux'
 import { Provider } from 'react-redux'
-import { reduxReactRouter } from 'redux-router'
-import { createHistory } from 'history'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
